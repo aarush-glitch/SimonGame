@@ -51,3 +51,53 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+
+.instructions {
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  text-align: left;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
+.instructions ol {
+  margin-left: 40px;
+}
+
+.instructions li {
+  padding: 5px;
+}
+
+.start-game {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #28a745;
+  border-radius: 20%;
+}
+
+.start-game:hover {
+  background-color: #218838;
+}
+
+.instructions-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.instructions-link, a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+  text-decoration: none;
+}
+
+.instructions-link a:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
